@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: b2b729a51cdaaf14ba19562c98f920aa
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 0000000005000000060000000700000008000000090000000a0000000b000000
+  assetHash:
+    serializedVersion: 2
+    Hash: d3d2924731b4410c58322e37fe65fd1e
+  longitude: 4.900307020069583
+  latitude: 52.37273491202618
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 37.27961, y: 15.031984, z: -34.472527}
+      lookAt: {x: -0.6584606, y: 9.271862, z: -0.8950182}
+      up: {x: -0.08459313, y: 0.99359876, z: 0.074870095}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Group 10
+    100002: Group 5
+    100004: Group 7
+    100006: Group 8
+    100008: //RootNode
+    400000: Group 10
+    400002: Group 5
+    400004: Group 7
+    400006: Group 8
+    400008: //RootNode
+    2100000: DW-daltoren1
+    2100002: DW-rechtstoren1
+    2100004: DW-linkstoren1
+    2100006: DW-centralekoepel
+    2100008: DW-linksenrechttoren2
+    2100010: DW-Charcoal
+    2100012: DW-linksschoorsteen
+    2100014: DW-linksdeel2zonderdeur
+    2100016: DW-linksdeel1
+    2100018: DW-linkstoren3
+    2100020: DW- rechtstoren3
+    2100022: DW-front1
+    2100024: DW-front2
+    2100026: _Black_
+    2100028: DW-rechtsdeel1
+    2100030: DW-daktorens3
+    2100032: DW-dakkapel
+    2100034: DW-Material2
+    2100036: DW-linksdeel2
+    2100038: DW-dakdeel3
+    2100040: DW-rechtstoren2deur
+    2100042: DW-rechtsdeel2
+    2100044: DW-Material1
+    2100046: _Beige_1
+    2100048: DW-linksenrechttoren1
+    2300000: Group 10
+    2300002: Group 5
+    2300004: Group 8
+    3300000: Group 10
+    3300002: Group 5
+    3300004: Group 8
+    4300000: Mesh Group 5
+    4300002: Mesh Group 8
+    4300004: Mesh Group 10
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW- rechtstoren3
+    second: {fileID: 2100000, guid: 8d24291a1ebac3046855f4863f42d153, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-Charcoal
+    second: {fileID: 2100000, guid: afc8782704e823244b4d6fc7e308ddf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-Material1
+    second: {fileID: 2100000, guid: c3cb4fe392ae54a4abcf645ca6de2134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-Material2
+    second: {fileID: 2100000, guid: 714616b9174db3842a15591524370941, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-centralekoepel
+    second: {fileID: 2100000, guid: f7ab643e40822584cb6e7516c9ab782e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-dakdeel3
+    second: {fileID: 2100000, guid: b7bd26460cff4e04b8b45e6bb964cf6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-dakkapel
+    second: {fileID: 2100000, guid: d9047c2da75636444b68c9a485c23280, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-daktorens3
+    second: {fileID: 2100000, guid: 9614b12fea9d7d44292ae1e5ed8a89e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-daltoren1
+    second: {fileID: 2100000, guid: de733f4a69021e54fad8f98af72d03d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-front1
+    second: {fileID: 2100000, guid: fafcd5cac767ec4438be255ceccfed32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-front2
+    second: {fileID: 2100000, guid: fb34c29c7fe926a489603df2a9271185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-linksdeel1
+    second: {fileID: 2100000, guid: 819972dcbdee18045896583fc1de08b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-linksdeel2
+    second: {fileID: 2100000, guid: e1e0a8e47cd373644a0980c5bc7530bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-linksdeel2zonderdeur
+    second: {fileID: 2100000, guid: f9e021212dffbe14e80c889db1f227a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-linksenrechttoren1
+    second: {fileID: 2100000, guid: dd255a46f5ff3b54c8126ab5fa7f6286, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-linksenrechttoren2
+    second: {fileID: 2100000, guid: 7711c40e878d17a4cad171e694dd1f53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-linksschoorsteen
+    second: {fileID: 2100000, guid: f2321c7590bae47419e7e95bbb417993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-linkstoren1
+    second: {fileID: 2100000, guid: 6d374181af5180f429a9566f05bdae7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-linkstoren3
+    second: {fileID: 2100000, guid: 0ecc95e3d3201854cbc902ba260acafb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-rechtsdeel1
+    second: {fileID: 2100000, guid: 9e3e3cfaa2352a1479e4d7be35722e66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-rechtsdeel2
+    second: {fileID: 2100000, guid: 26afc23e2ed55b94da338da387ec3460, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-rechtstoren1
+    second: {fileID: 2100000, guid: ba60bdcd4e5cf4644a878a1c032e019f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DW-rechtstoren2deur
+    second: {fileID: 2100000, guid: 0c9ed7fe0aeda654f9231e89c55f7e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Beige_1
+    second: {fileID: 2100000, guid: 202a13176521cdc4589278d797567dc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Black_
+    second: {fileID: 2100000, guid: 3da65043a8f99864980b5329056045d8, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DW-daktrim
+    second: {fileID: 2800000, guid: 5447bc18a18f8dd43be6d708f554730f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a-linkertoren
+    second: {fileID: 2800000, guid: 5f6b87d8e179e014b9bc7af01061cd4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a-linksdeeltwee
+    second: {fileID: 2800000, guid: 8f871b673cc23c24682d1a75dfba1ddd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a-schoorsteenlinks
+    second: {fileID: 2800000, guid: 14b78f5230aa4a44a8554e18eb559ec7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a-zijkantlinks
+    second: {fileID: 2800000, guid: 0238b9d520f31f4409acf57d7e2cc507, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a-zijkantlinkszonderdeur
+    second: {fileID: 2800000, guid: e437ba4638605f748a6d3c5f4286ad83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: centralekoepel
+    second: {fileID: 2800000, guid: a834a3102e0d90f4aab013e8eeb7bd40, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dak1
+    second: {fileID: 2800000, guid: 7ebafb64c40bcef439b14b47e4a8be39, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dakderdetoren
+    second: {fileID: 2800000, guid: 7a36c5bba8b05cc4ab0f72a28dd126cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dakkapel-b
+    second: {fileID: 2800000, guid: a998bdfdd3bfd4042be56352e64f60ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: daktoren2
+    second: {fileID: 2800000, guid: f6d58f89a8b0d7b4fb2fa7fbaf6c7342, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: deurintweedetorenrechts
+    second: {fileID: 2800000, guid: 994791f64e831e94f885c76038462ab1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: front
+    second: {fileID: 2800000, guid: a7deb22964640fe4fb09824d863718ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: front2
+    second: {fileID: 2800000, guid: 425fb16a8678ecb4ca9f69a774dcfec4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: front2dak
+    second: {fileID: 2800000, guid: b49b4c024b3e8a045b3bd8655cf549d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: linksderdetoren
+    second: {fileID: 2800000, guid: d3fcab0585d08fa43a70aa6e3720b9dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: linkstweedetoren
+    second: {fileID: 2800000, guid: 8c9885aea83688a4baeaf5adce6181cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rechtsderdetoren
+    second: {fileID: 2800000, guid: b3ef25247efcc2a418c2d099b6265a36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rechtseerstedeel
+    second: {fileID: 2800000, guid: dc689c831c795294a884998ee0d730c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rechtseerstetoren
+    second: {fileID: 2800000, guid: 54136dd890c0d244e9d510fb819dd1e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rechtstweededeel
+    second: {fileID: 2800000, guid: 6e3404d420b4b3a4baf1df6ff23d1aa2, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
