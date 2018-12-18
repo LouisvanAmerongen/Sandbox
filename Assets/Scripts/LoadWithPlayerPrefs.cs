@@ -19,6 +19,10 @@ public class LoadWithPlayerPrefs : MonoBehaviour {
     //Achterhaal de naam van de knop:
     string buttonname;
 
+    //String voor oproepen opmerkingen:
+    private string StringInput;
+
+
     //NaamClass - Detecteer de naam van de knop en laat alleen het nummer over blijven:
     private DetectNaam Dnaam = new DetectNaam();
     //De knopnaam wordt achterhaalt en Laden wordt weg gehaald:
@@ -52,7 +56,10 @@ public class LoadWithPlayerPrefs : MonoBehaviour {
 
     void Laadgegevens()
     {
+        LoadInputfield();
+
         ON = 0;
+
         while (PlayerPrefs.HasKey(LadenNummer + "Onaam" + ON))
         {
             naam = PlayerPrefs.GetString(LadenNummer + "Onaam" + ON);
@@ -73,6 +80,13 @@ public class LoadWithPlayerPrefs : MonoBehaviour {
         {
             GameObject.Destroy(child.gameObject);
         }
+    }
+
+    void LoadInputfield()
+    {
+        StringInput = PlayerPrefs.GetString(LadenNummer + "Invoer");
+
+        Debug.Log("Laden nummer: "+LadenNummer+" Invoer is: " + StringInput);
     }
 
     void Naam()

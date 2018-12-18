@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 //Koppel dit Script aan een empty welke aan een knop genaamd Opslaan 1, 2, 3, etc hangt.
@@ -26,11 +27,15 @@ public class SaveWithPlayerPrefs : MonoBehaviour
     private string Sep = ";";
     //Hoeveel objecten zijn er opgeslagen (ONr = ObjectNummer):
     public string ONr;
+    //Text invoer veld voor opmerkingen:
+    public InputField inputfield;
 
     //NaamClass - Detecteer de naam van de knop en laat alleen het nummer over blijven:
     private DetectNaam Dnaam = new DetectNaam();
     //De knopnaam wordt achterhaalt en Opslaan wordt weg gehaald:
     private string OpslaanNummer;
+    //String voor oproepen opmerkingen:
+    private string StringInput;
 
 
     //Instellen tekst:
@@ -64,6 +69,8 @@ public class SaveWithPlayerPrefs : MonoBehaviour
         //Leeg het geheugen voor nieuwe gegevens weg worden geschreven:
         LeegGeheugen();
 
+        SaveInputfield();
+        
         //Loop welke de Parent doorloopt en de gegevens van alle objecten weg schrijft:
         for (int i = 0; i < ParentPrefabFolder.transform.childCount; i++)
         {
@@ -74,7 +81,7 @@ public class SaveWithPlayerPrefs : MonoBehaviour
 
             //Bepaal de Gegevens:
             Naam();
-            
+
             Locatie();
             Rotatie();
             Schaal();
@@ -92,15 +99,19 @@ public class SaveWithPlayerPrefs : MonoBehaviour
 
             //Verwijder het geheugen horende bij het knopnummer:
             PlayerPrefs.DeleteKey(OpslaanNummer + "Onaam" + i);
-        }
-        
+        } 
+    }
+
+    void SaveInputfield()
+    {
+        PlayerPrefs.SetString(OpslaanNummer + "Invoer",inputfield.text);
     }
 
     void Naam()
     {
         PlayerPrefs.SetString(OpslaanNummer + "Onaam" + ONr, ParentObject.name.ToString());
 
-        Debug.Log(OpslaanNummer + "Onaam" + ONr);
+        //Debug.Log(OpslaanNummer + "Onaam" + ONr);
         //PlayerPrefs.SetString("Onaam" + ONr, ParentObject.name.ToString());
     }
 
@@ -151,6 +162,7 @@ public class SaveWithPlayerPrefs : MonoBehaviour
     {
         //Voor het testen van een laad-functie, een debug met locatiegegevens na het intoetsen van de 2-toets:
         int i = 0;
+
         while (PlayerPrefs.HasKey(OpslaanNummer + "Onaam" + i))
         {
             Debug.Log("Laden data uit Playerprefs: " + i + " - " + PlayerPrefs.GetString(OpslaanNummer + "Onaam"+i)+" X: "+ PlayerPrefs.GetString(OpslaanNummer + "LocX" + i) + " Y: "+PlayerPrefs.GetString(OpslaanNummer + "LocY" + i) + " Z: "+ PlayerPrefs.GetString(OpslaanNummer + "LocZ" + i));
